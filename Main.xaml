@@ -114,7 +114,7 @@
       <AssemblyReference>System.Memory.Data</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Working with Orchestrator Resources in Studio" sap:VirtualizedContainerService.HintSize="876.0000000000001,3080.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Working with Orchestrator Resources in Studio" sap:VirtualizedContainerService.HintSize="876.0000000000001,2906.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="dt_ExtractDataTable" />
       <Variable x:TypeArguments="x:String" Name="Acme_Url" />
@@ -226,7 +226,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Download Work Items from ACME System 1" sap:VirtualizedContainerService.HintSize="516.8,1055.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="4653da99-87f1-4241-b465-e78d5104e16b" Version="V1">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Download Work Items from ACME System 1" sap:VirtualizedContainerService.HintSize="516.8,1046.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="4653da99-87f1-4241-b465-e78d5104e16b" Version="V1">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -292,6 +292,5 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="516.8,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Warn" Message="[&quot;Process completed&quot;]" />
   </Sequence>
 </Activity>
